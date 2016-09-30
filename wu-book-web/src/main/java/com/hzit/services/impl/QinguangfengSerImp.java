@@ -1,4 +1,4 @@
-package com.hzit.services.qinguangfengImpl;
+package com.hzit.services.impl;
 
 import com.hzit.services.QinGuangFengService;
 
