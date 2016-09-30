@@ -15,8 +15,8 @@ import java.util.Date;
 @Controller
 @RequestMapping("/wanlun")
 public class WanlunContriller {
-          @Autowired
-           WanLunServices wanLunServices;
+              @Autowired
+               WanLunServices wanLunServices;
         @RequestMapping("/login")
         public String update(){
             System.out.println("这是控制器的更新方法");
