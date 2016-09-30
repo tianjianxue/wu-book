@@ -12,6 +12,7 @@ import java.util.Date;
  * Created by Administrator on 2016/9/30.
  */
 @Controller
+@RequestMapping("/zhonghuigui")
 public class ZhongHuiGuiController {
     @Autowired
     private ZhongHuiGuiService zhongHuiGuiService;
