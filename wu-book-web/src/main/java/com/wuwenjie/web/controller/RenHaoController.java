@@ -12,7 +12,7 @@ public class RenHaoController {
 
     @RequestMapping("/insert")
     public String insert(){
-        return "";
+        return "renhao";
     }
 
 
