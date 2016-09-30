@@ -1,4 +1,4 @@
-package com.jinxin.services;
+package com.hzit.services;
 
 import java.util.List;
 
