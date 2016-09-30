@@ -11,6 +11,12 @@
     <title></title>
 </head>
 <body>
-
+<table border="1">
+  <tr>
+    <td>awdawdaw</td>
+    <td>edrgawdt</td>
+    <td>ewgrergew</td>
+  </tr>
+</table>
 </body>
 </html>
