@@ -24,7 +24,7 @@ public class MaXiangController {
     }
     @RequestMapping("/login")
     public String login(){
-        return     maXiangService.login();
+        return   maXiangService.login();
 
 
     }
