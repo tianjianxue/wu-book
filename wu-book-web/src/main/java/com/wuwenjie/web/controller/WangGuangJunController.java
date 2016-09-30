@@ -2,7 +2,6 @@ package com.wuwenjie.web.controller;
 
 
 import com.hzit.services.WgjSerivce;
-import com.hzit.services.impl.WgjSerivceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,11 +13,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/wangguangjun")
 public class WangGuangJunController {
     @Autowired
-    private WgjSerivceImpl wgjSerivceImpl;
+    private WgjSerivce wgjSerivce;
 
      @RequestMapping("/show")
      public String show(){
-               wgjSerivceImpl.find();
+               wgjSerivce.find();
                 return "wangguangjun";
     }
 

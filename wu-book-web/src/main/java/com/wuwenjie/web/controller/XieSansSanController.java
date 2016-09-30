@@ -1,35 +1,29 @@
 package com.wuwenjie.web.controller;
 
-import com.hzit.services.ZzService;
+import com.hzit.services.impl.XieSanSanServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-
 import java.util.Date;
 
 /**
  * Created by Administrator on 2016/9/30.
  */
 @Controller
-@RequestMapping("/zz")
-public class ZzController {
+@RequestMapping("/xss")
+public class XieSansSanController {
     @Autowired
-private ZzService zzService;
+    private XieSanSanServiceImpl xieSanSanService;
 
-    public ZzController(){
-        System.out.println("zz的控制器被创建");
-    }
     @RequestMapping("/login")
     public String login(){
-        System.out.println("zzzzzz");
-        return "zz";
+        return "xiesansan";
     }
-    @RequestMapping("/zzadd")
+
+    @RequestMapping("/cTime")
     @ResponseBody
-    public Object add(){
-        zzService.getzz();
-        System.out.println("zz加");
+    public Object cTime(){
         return new Date();
     }
 }
