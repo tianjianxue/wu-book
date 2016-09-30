@@ -22,6 +22,7 @@
   }
 </script>
 <body>
+<h1>欢迎您：${user}</h1>
 <h1>Hello World!</h1>
 <div id="time" onclick="kaishi()"><h2>显示当前时间</h2></div>
 </body>
