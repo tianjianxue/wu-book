@@ -28,4 +28,8 @@ public class WuWenJieController {
         System.out.println("处理用户增加");
         return new Date();
     }
+     @RequestMapping("/delete")
+        public String delete(){
+            return "";
+        }
 }
