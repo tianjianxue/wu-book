@@ -20,7 +20,7 @@ import java.util.Map;
 @RequestMapping("/hou")
 public class HouWenKangController {
     @Autowired
-    HouWenKangService houWenKangService;
+    private HouWenKangService houWenKangService;
 
     @RequestMapping("/queryAll")
     public Object selectALLController(ModelMap modelMap) {
