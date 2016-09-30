@@ -8,4 +8,8 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class LaiShiYingServiceImpl implements LaiShiYingService {
+    @Override
+    public Object into() {
+        return null;
+    }
 }
