@@ -10,26 +10,21 @@ import java.util.Date;
  * Created by Administrator on 2016/9/30.
  */
 @Controller
-@RequestMapping("/wuwenjie")
-public class WuWenJieController {
+@RequestMapping("/zz")
+public class ZzController {
 
-    public WuWenJieController(){
-        System.out.println("控制器对象被创建");
+    public ZzController(){
+        System.out.println("zz的控制器被创建");
     }
-
     @RequestMapping("/login")
     public String login(){
-        System.out.println("用户登录");
-            return "wuwenjie";
+        System.out.println("zzzzzz");
+        return "zz";
     }
-    @RequestMapping("/add")
+    @RequestMapping("/zzadd")
     @ResponseBody
     public Object add(){
-        System.out.println("处理用户增加");
+        System.out.println("zz加");
         return new Date();
     }
-     @RequestMapping("/delete")
-        public String delete(){
-            return "";
-        }
 }
