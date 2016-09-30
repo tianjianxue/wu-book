@@ -19,6 +19,7 @@ public class ZhongHuiGuiController {
     @RequestMapping("/denglu")
     public String denglu(){
         System.out.println("登录成功sss");
+        zhongHuiGuiService.unpdata();
         return "zhonghuigui";
     }
 

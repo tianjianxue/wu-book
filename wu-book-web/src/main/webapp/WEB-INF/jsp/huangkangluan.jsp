@@ -11,6 +11,7 @@
     <title></title>
 </head>
 <body>
+欢迎您:${user}
 <table border="1">
   <tr>
     <td>awdawdaw</td>
