@@ -11,6 +11,6 @@
     <title></title>
 </head>
 <body>
-  谢的页面
+  欢迎来到三本园
 </body>
 </html>
