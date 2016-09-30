@@ -1,5 +1,7 @@
 package com.wuwenjie.web.controller;
 
+import com.hzit.services.impl.LaiShiYingServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,12 +16,16 @@ import java.util.Objects;
 @Controller
 @RequestMapping("/jason")
 public class LaiShiYingController {
+    @Autowired
+    private LaiShiYingServiceImpl laiShiYingService;
+
     public LaiShiYingController(){
         System.out.println("LaiShiYingController构造方法");
     }
 
     @RequestMapping("/login")
     public String login(){
+        laiShiYingService.into();
         System.out.println("用户登录");
         return "laishiying";
     }

@@ -28,6 +28,7 @@ private ZzService zzService;
     @RequestMapping("/zzadd")
     @ResponseBody
     public Object add(){
+        zzService.getzz();
         System.out.println("zz加");
         return new Date();
     }

@@ -11,7 +11,7 @@ public class ZengServiceImpl implements ZengService {
 
     @Override
     public void add() {
-        System.out.println("this is add method by zengchao   ");
+        System.out.println("this is add method by zengchao");
     }
 
     @Override
