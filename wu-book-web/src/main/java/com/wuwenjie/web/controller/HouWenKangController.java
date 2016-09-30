@@ -1,6 +1,7 @@
 package com.wuwenjie.web.controller;
 
 import com.hzit.services.HouWenKangService;
+import com.myinterceptor.HouWenKangInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -8,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 
 import javax.xml.ws.RequestWrapper;
@@ -18,9 +21,16 @@ import java.util.Map;
  */
 @Controller
 @RequestMapping("/hou")
-public class HouWenKangController {
+public class HouWenKangController extends WebMvcConfigurerAdapter {
     @Autowired
     private HouWenKangService houWenKangService;
+
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+        //使用拦截器注册对象 ,注册拦截器,并指定拦截器拦截的路径
+        registry.addInterceptor(new HouWenKangInterceptor()).addPathPatterns("/hou/**");
+        super.addInterceptors(registry);
+    }
 
     @RequestMapping("/queryAll")
     public Object selectALLController(ModelMap modelMap) {
@@ -69,5 +79,6 @@ public class HouWenKangController {
            return -1;
         }
     }
+
 
 }
