@@ -1,5 +1,7 @@
 package com.wuwenjie.web.controller;
 
+import com.hzit.services.MaXiangService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -12,16 +14,18 @@ import java.util.Date;
 @Controller
 @RequestMapping("/maxiang")
 public class MaXiangController {
-
+         @Autowired
+        private MaXiangService maXiangService;
     @RequestMapping("currenttime")
     @ResponseBody
     public Date time(){
+        return     maXiangService.currenttime();
 
-        return new Date();
     }
     @RequestMapping("/login")
     public String login(){
-        return "maxiang";
+        return     maXiangService.login();
+
 
     }
     @RequestMapping("/add")

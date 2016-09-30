@@ -10,7 +10,6 @@ import org.springframework.stereotype.Service;
 public class WgjSerivceImpl implements WgjSerivce {
 
     @Override
-    public void find() {
-        System.out.println("haha");
+    public void find() {System.out.println("haha");
     }
 }
