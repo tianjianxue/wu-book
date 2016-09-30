@@ -18,7 +18,7 @@ public class ZengController {
     @RequestMapping("/login")
     public String login() {
         zengService.add();
-        System.out.println("欢迎");
+        System.out.println("欢迎    ");
         return "zengchao";
     }
 }

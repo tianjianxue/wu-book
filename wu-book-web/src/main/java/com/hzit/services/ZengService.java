@@ -11,4 +11,6 @@ public interface ZengService {
 
     void findAll();
 
+    void update();
+
 }
