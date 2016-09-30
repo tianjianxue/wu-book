@@ -15,8 +15,8 @@
           margin: 50px auto;
           margin-left: auto;
           margin-right: auto;
-          font-size: 15px;
-          line-height: 16px;
+          font-size: 20px;
+          line-height:28px;
            text-align: center;
             background-color: azure;
         }

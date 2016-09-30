@@ -10,6 +10,6 @@ import org.springframework.stereotype.Service;
 public class XieSanSanServiceImpl implements XieSanSanService{
     @Override
     public void dream() {
-
+        System.out.println("正在实现梦想");
     }
 }
