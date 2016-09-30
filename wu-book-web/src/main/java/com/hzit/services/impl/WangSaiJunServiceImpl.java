@@ -13,4 +13,7 @@ public class WangSaiJunServiceImpl implements WangSaiJunService {
         System.out.println("修改成功！！！");
         return true;
     }
+    public void login(){
+        System.out.println("登录！！1");
+    }
 }
