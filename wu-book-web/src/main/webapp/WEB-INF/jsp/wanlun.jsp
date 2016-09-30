@@ -17,7 +17,8 @@
           margin-right: auto;
           font-size: 15px;
           line-height: 16px;
-
+           text-align: center;
+            background-color: azure;
         }
   </style>
 </head>

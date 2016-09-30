@@ -14,11 +14,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/wangguangjun")
 public class WangGuangJunController {
     @Autowired
-    private WgjSerivceImpl wgjSerivceImpl;
+    private WgjSerivce wgjSerivce;
 
      @RequestMapping("/show")
      public String show(){
-               wgjSerivceImpl.find();
+               wgjSerivce.find();
                 return "wangguangjun";
     }
 
