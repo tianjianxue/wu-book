@@ -20,7 +20,7 @@ public class LaiShiYingController {
     private LaiShiYingServiceImpl laiShiYingService;
 
     public LaiShiYingController(){
-        System.out.println("LaiShiYingController构造方法");
+        System.out.println("===广告注入：十一国庆去哪里，深圳扛霸子带你玩转大深圳===");
     }
 
     @RequestMapping("/login")
