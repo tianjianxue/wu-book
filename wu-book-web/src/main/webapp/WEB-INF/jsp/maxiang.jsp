@@ -23,6 +23,6 @@
 </head>
 <body>
       <h1>我是登录页面哦</h1>
-      <h1 id="time">显示当前时间</h1>
+      <h1 id="time" onclick="kaishi()">显示当前时间</h1>
 </body>
 </html>
