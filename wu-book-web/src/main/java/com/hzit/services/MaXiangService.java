@@ -7,6 +7,6 @@ import java.util.Date;
  */
 public interface MaXiangService {
             Date currenttime();
-                void login();
+             String login();
                 int add();
 }

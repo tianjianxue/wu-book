@@ -1,5 +1,7 @@
 package com.jinxin.web.controller;
 
+import com.jinxin.services.JinxinService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -13,6 +15,9 @@ import java.util.Date;
 @Controller
 @RequestMapping("/jinxin")
 public class Jinxincontroller {
+
+    @Autowired
+    private JinxinService jinxinServiceimpl;
 
     public Jinxincontroller() {
         System.out.println("金鑫的控制器");
