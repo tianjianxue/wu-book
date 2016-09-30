@@ -18,8 +18,10 @@ public class MaXiangServiceImpl implements MaXiangService{
     }
 
     @Override
-    public void login() {
+    public String login() {
 
+        String s="maxiang";
+        return  s;
     }
 
     @Override
