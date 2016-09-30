@@ -7,7 +7,7 @@ import java.util.Date;
  */
 public interface WuJiaFengServices {
     Date time();
-    void login();
+    String login();
     int add();
     int update();
     int delete();
