@@ -13,8 +13,8 @@ public class LisikangController {
        System.out.println("控制器创建");
    }
     @RequestMapping("/delete")
-    public String delect(){
+    public int delect(Integer nub){
         System.out.println("删除");
-        return "lisikang";
+        return 1;
     }
 }
