@@ -18,6 +18,5 @@ public class WangSaiJunController {
        boolean b = wangSaiJunService.updateW();
         return "wangsaijun";
     }
-
 }
 
