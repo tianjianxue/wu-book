@@ -1,5 +1,7 @@
 package com.wuwenjie.web.controller;
 
+import com.hzit.services.impl.QinguangfengSerImp;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -12,6 +14,8 @@ import java.util.Date;
 @Controller
 @RequestMapping("/qinguangfeng")
 public class QinGuangFengContro {
+    @Autowired
+    private QinguangfengSerImp qinguangfengSerImp;
     @RequestMapping("/denglu")
     public String denglu(){
         System.out.println("覃光峰写的登录界面");
