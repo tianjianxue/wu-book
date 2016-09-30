@@ -1,4 +1,4 @@
-package com.wuwenjie.web;
+package com.jinxin.web;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.web.SpringBootServletInitializer;
@@ -9,10 +9,6 @@ import org.springframework.context.annotation.ComponentScan;
  */
 
 @SpringBootApplication
-@ComponentScan({"com.hzit.services","com.wuwenjie.web.controller"})
-public class StartWebApp extends SpringBootServletInitializer {
-
-
+@ComponentScan({"com.jinxin"})
+public class StartWabApp extends SpringBootServletInitializer {
 }
-
-
