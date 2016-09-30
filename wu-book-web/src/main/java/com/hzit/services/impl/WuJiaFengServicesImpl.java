@@ -17,8 +17,9 @@ public class WuJiaFengServicesImpl implements WuJiaFengServices {
     }
 
     @Override
-    public void login() {
-
+    public String login() {
+        String page="wujiafeng";
+        return page;
     }
 
     @Override
