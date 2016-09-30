@@ -77,12 +77,12 @@
 都是赚的<br/>
 </div>--%>
      <div>
-    <h2>Whitelabel Error Page</h2>
+    <h1>Whitelabel Error Page</h1>
 
-    <h4>This application has no explicit mapping for /error, so you are seeing this as a fallback.</h4>
-         <h4>Fri Sep 30 14:09:36 CST 2016</h4>
-         <h4>There was an unexpected error (type=Not Found, status=404).</h4>
-    <h4>No message available</h4>
+    <h5>This application has no explicit mapping for /error, so you are seeing this as a fallback.</h5>
+         <h5>Fri Sep 30 14:09:36 CST 2016</h5>
+         <h5>There was an unexpected error (type=Not Found, status=404).</h5>
+    <h5>No message available</h5>
      </div>
 </body>
 </html>
