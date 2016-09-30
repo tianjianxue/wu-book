@@ -17,7 +17,7 @@ import java.util.Map;
  * Created by Administrator on 2016/9/30.
  */
 @Controller
-@RequestMapping("/HouWenKang")
+@RequestMapping("/hou")
 public class HouWenKangController {
     @Autowired
     HouWenKangService houWenKangService;
