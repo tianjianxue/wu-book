@@ -16,16 +16,18 @@ public class ZengServiceImpl implements ZengService {
 
     @Override
     public void delete() {
+
         System.out.println("this is delete method by zengchao");
     }
 
     @Override
     public void findAll() {
+
         System.out.println("this is findAll method by zengchao");
     }
 
     @Override
     public void update() {
-
+        System.out.println("this is update method by zengchao");
     }
 }
