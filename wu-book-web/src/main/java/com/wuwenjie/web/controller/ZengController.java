@@ -1,6 +1,7 @@
 package com.wuwenjie.web.controller;
 
 import com.hzit.services.ZengService;
+import com.hzit.services.impl.ZengServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
