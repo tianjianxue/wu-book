@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title><h1>吴佳峰的页面</h1></title>
+    <title>吴佳峰的页面</title>
 </head>
 <body>
-<h1>Hello World</h1>
+<h1>Hello World!</h1>
 </body>
 </html>
