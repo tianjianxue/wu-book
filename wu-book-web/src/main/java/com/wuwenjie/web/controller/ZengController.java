@@ -21,4 +21,18 @@ public class ZengController {
         System.out.println("欢迎    ");
         return "zengchao";
     }
+
+    @RequestMapping("/add")
+    public String add() {
+        zengService.add();
+        System.out.println("我要增加了");
+        return "zengchao";
+    }
+
+    @RequestMapping("/delete")
+    public String delete() {
+        zengService.add();
+        System.out.println("我要删除了");
+        return "zengchao";
+    }
 }
