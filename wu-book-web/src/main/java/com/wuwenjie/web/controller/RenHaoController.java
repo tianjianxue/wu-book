@@ -1,5 +1,7 @@
 package com.wuwenjie.web.controller;
 
+import com.hzit.services.impl.RenHaoServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -9,6 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/renhao")
 public class RenHaoController {
+    @Autowired
+    private RenHaoServiceImpl renhaoserviceimpl;
 
     @RequestMapping("/insert")
     public String insert(){

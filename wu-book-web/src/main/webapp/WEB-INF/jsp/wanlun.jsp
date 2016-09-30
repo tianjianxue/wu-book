@@ -9,8 +9,21 @@
 <html>
 <head>
     <title></title>
+  <style>
+        div{
+          width: 580px;
+          margin: 50px auto;
+          margin-left: auto;
+          margin-right: auto;
+          font-size: 15px;
+          line-height: 16px;
+           text-align: center;
+            background-color: azure;
+        }
+  </style>
 </head>
 <body>
+<div>
 那庄公闲游出趟城西<br/>
 看见了人家骑马我就骑着驴<br/>
 扭项回头瞅见一个推小车的汉<br/>
@@ -66,5 +79,6 @@
 若是趁者胸前有口气儿在<br/>
 您得吃点喝点乐点行点好积点德<br/>
 都是赚的<br/>
+</div>
 </body>
 </html>
