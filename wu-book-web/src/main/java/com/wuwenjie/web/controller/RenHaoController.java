@@ -16,6 +16,7 @@ public class RenHaoController {
     private RenHaoService renhaoservice;
 
     @RequestMapping("/insert")
+
     public String insert(){
         return "renhao";
     }
