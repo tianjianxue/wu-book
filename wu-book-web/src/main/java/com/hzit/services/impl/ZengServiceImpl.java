@@ -23,4 +23,9 @@ public class ZengServiceImpl implements ZengService {
     public void findAll() {
         System.out.println("this is findAll method by zengchao");
     }
+
+    @Override
+    public void update() {
+
+    }
 }
