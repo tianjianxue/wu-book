@@ -18,8 +18,6 @@ public class WangSaiJunController {
        boolean b = wangSaiJunService.updateW();
         return "wangsaijun";
     }
-    public void login(){
-        System.out.println("登录！！");
-    }
+
 }
 
