@@ -1,6 +1,6 @@
-package com.jinxin.web.controller;
+package com.wuwenjie.web.controller;
 
-import com.jinxin.services.JinxinService;
+import com.hzit.services.ZhongHuiGuiService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,27 +11,20 @@ import java.util.Date;
 /**
  * Created by Administrator on 2016/9/30.
  */
-
 @Controller
-@RequestMapping("/jinxin")
-public class Jinxincontroller {
-
+public class ZhongHuiGuiController {
     @Autowired
-    private JinxinService jinxinServiceimpl;
-
-    public Jinxincontroller() {
-        System.out.println("金鑫的控制器");
-    }
-
+    private ZhongHuiGuiService zhongHuiGuiService;
     @RequestMapping("/denglu")
-    public String sk(){
-        System.out.println("有人登陆了");
-        return "gongjinxin";
+    public String denglu(){
+        System.out.println("登录成功sss");
+        return "zhonghuigui";
     }
 
-    @RequestMapping("/add")
+    @RequestMapping("/addsubject")
     @ResponseBody
-    public Object add(){
+    public Object addsubject(){
+        System.out.println("增加科目");
         return new Date();
     }
 }

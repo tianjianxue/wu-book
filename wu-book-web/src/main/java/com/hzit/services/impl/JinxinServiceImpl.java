@@ -1,6 +1,6 @@
-package com.jinxin.services.impl;
+package com.hzit.services.impl;
 
-import com.jinxin.services.JinxinService;
+import com.hzit.services.JinxinService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
