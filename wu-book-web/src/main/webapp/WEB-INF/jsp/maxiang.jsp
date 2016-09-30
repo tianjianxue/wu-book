@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>马香香的页面</title>
+    <title>马香的页面</title>
 
 </head>
 <body>
