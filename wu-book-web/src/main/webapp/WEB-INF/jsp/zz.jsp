@@ -11,6 +11,7 @@
     <title></title>
 </head>
 <body>
+欢迎您。。。${user}
 wo shi zzzzzzzzz
 </body>
 </html>
